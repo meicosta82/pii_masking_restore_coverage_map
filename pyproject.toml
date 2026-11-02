@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "meicosta82-asr_jd024"
+name = "meicosta82-pii_masking_restore_coverage_map"
 version = "0.1.0"
 description = "把候选项映射到类别上，算出语音识别算法工程师·敏感信息的脱敏与回填的覆盖率并列出未覆盖的类别"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://meicosta82.github.io"
-Repository = "https://github.com/meicosta82/asr_jd024"
-Issues = "https://github.com/meicosta82/asr_jd024/issues"
+Repository = "https://github.com/meicosta82/pii_masking_restore_coverage_map"
+Issues = "https://github.com/meicosta82/pii_masking_restore_coverage_map/issues"
 
 [project.scripts]
-asr_jd024 = "asr_jd024:main"
+pii_masking_restore_coverage_map = "pii_masking_restore_coverage_map:main"
 
 [tool.setuptools]
-py-modules = ["asr_jd024"]
+py-modules = ["pii_masking_restore_coverage_map"]
